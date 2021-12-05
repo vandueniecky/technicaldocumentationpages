@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" id="LEARN_WEBSITE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- Navbar Scrolling -->
+<nav id="navbar">
+    <header class="title">
+      <a href="#LEARN_WEBSITE">LEARN WEBSITE</a>
+    </header>
+
+      <ul>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Introduction">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Code_Editor">Code Editor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Create_HTML_Dasar">Create HTML Dasar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Hello_World">Hello World</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Create_CSS">Create CSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Create_Javascript">Create Javascript</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#Framework_CSS_&_Javascript">Framework CSS & Javascript</a>
+        </li>
+      </ul>
+</nav>
+<!-- Akhir Navbar -->
+
+<main id="main-doc" class="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Situs Web (Website) adalah sekumpulan halaman web yang saling berhubungan yang umumnya pada layanan yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisai. Halaman web merupakan berkas yang ditulis sebagai berkas teks biasa (plain text) yang diatur dan dikombinasikan sedemikian rupa dengan instruksi-instruksi berbasis HTML atau XHTML, kadang-kadang pula disisipi dengan sekelumit bahasa skrip. Berkas tersebut kemudian diterjemahkan oleh peramban web dan ditampilkan seperti layaknya sebuah halaman pada monitor komputer.
+        <span class="wiki">Selengkapnya baca di <a herf="https://id.wikipedia.org/wiki/Situs_web">Wikipedia</a>.</span>
+      </p>
+      <p>
+        Technical Documentation ini membahas tentang apa yang dilakuan oleh pembuat Website Responsive sederhana diawal instalasi code HTML Dasar, CSS, Javascript, dan Framework. Bukan keseluruhan pembuatannya.
+        Documentation ini dibuat untuk Challenge kemampuan diri yang diberikan oleh freeCodeCamp.org bagian seri Responsive Web Design Certification.
+        Materi Pembahasan yang ada didalamnya itu saya buat sendiri, dibuat dengan sebagaimana benarnya. Apabila ada kakurangan dalam penyampaian atau salah dalam penyampaian. Saya mohon maaf yang sebesar-besarnya, terima kasih.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Code_Editor">
+    <header>Code Editor</header>
+    <article>
+      <p>
+        Code Editor adalah sebuatan apikasi pengolah text bahasa code (Bahasa Pemograman).
+        Sebelum membuat website/apps anda harus punya aplikasi yang biasa disebut dengan CodeEditor. Seperti: Notepad++, Sublime Text, Visual Studio Code dan lain sebagainya. CodeEditor merupakan Aplikasi yang bisa membuat/mengolah file Teknologi Bahasa Pemrograman Seperti: HTML, CSS, Javascript, PHP dan lain sebagainya. Berikut ini 5 Aplikasi Code Editor yang paling sering digunakan:
+      </p>
+      <ul>
+        <li>Visual Studio Code</li>
+        <li>Sublime Text</li>
+        <li>Notepad++</li>
+        <li>Atom</li>
+        <li>Ultra Edit</li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Create_HTML_Dasar">
+    <header>Create HTML Dasar</header>
+    <article>
+      <p>
+        Pertama siapkan folder untuk menyimpan data-data Website anda di File Exploler, setelah itu buka CodeEditor apa aja yang anda Install lalu Open Folder yang baru disiapkan tadi, setelah itu buat file dengan nama "index.html".
+      </p>
+      <p>
+        Cara mengunakan CodeEditor untuk membuat HTML Dasar dengan mudah, Aplikasi Sublime Text tinggal ketikan "html -lalu- Tab" dan yang menggunakan Aplikasi Visual Studio Code tinggal ketikan "! -lalu- Tab" aplikasi tersebut akan membuat structure HTML secara otomatis untuk yang menggunakan aplikasi lain selain yang diatas, Saya tidak tahu karena belum pernah menggunakannya. Berikut ini structure html dasar:
+      </p>
+      <pre class="chroma"><code><span><</span><span>!</span><span class="e">DOCTYPE </span><span class="c">html</span><span>></span>
+          <span><</span><span class="e">html</span> <span class="c">lang</span><span>=</span><span class="at">"en"</span><span>></span>
+          <span><</span><span class="e">head</span><span>></span>
+          <span><</span><span class="e">meta</span><span class="c"> charset</span><span>=</span><span class="at">"UTF-8"</span><span>></span>
+          <span><</span><span class="e">meta</span> <span class="c">name</span><span>=</span><span class="at">"viewport"</span> <span class="c">content</span><span>=</span><span class="at">"width=device-width, initial-scale=1.0"</span><span>></span>
+          <span><</span><span class="e">title</span><span>></span>Title Website<span><</span><span>/</span><span class="e">title</span><span>></span>
+          <span><</span><span>/</span><span class="e">head</span><span>></span>
+          <span><</span><span class="e">body</span><span>></span>
+
+          <span><</span><span>/</span><span class="e">body</span><span>></span>
+          <span><</span><span>/</span><span class="e">html</span><span>></span>
+        </code>
+      </pre>
+    </article>
+  </section>
+  <section class="main-section" id="Hello_World">
+    <header>Hello World</header>
+    <article>
+      <p>
+        Cara membuat hello world agar tampil diwebsite cukup ketik "hello world" didalam tag h1, p, dan sebagainya didalam tag body. Seperti ini:
+      </p>
+      <pre class="chroma"><code><span><</span><span class="e">h1</span><span>></span><span>Hello World</span><span><</span><span class="e">h1</span><span>></span></code>
+      </pre>
+      
+    </article>
+  </section>
+  <section class="main-section" id="Create_CSS">
+    <header>Create CSS</header>
+    <article>
+      <p>
+        Sebelum membuat Cascading Style Sheet (CSS). Ketahui terlebih dahulu bahwa CSS bisa digunakan dengan berbagai metode. Seperti Inline Style Sheet, Embedded Style Sheet (Internal), dan External CSS. Tiap-tiap penggunaannya sebagai berikut:
+      </p>
+      <ul>
+        <li class="fw-bold" style="font-family: 'Poppins';">CSS Inline</li>
+        <p>
+          Metode Inline ini CSSnya yang langsung didefinikan disetiap tag/element dan stylenya hanya berlaku pada tag itu sendiri.
+        </p>
+        <pre class="chroma"><code><span><</span><span class="e">h1 <span class="c">style</span><span>=</span><span class="at">"color: Green; font-weidth: bold;"</span></span><span>></span><span>Hello World</span><span><</span><span>/</span><span class="e">h1</span><span>></span>
+        <span><</span><span class="e">h1</span><span>></span><span>Hello World</span><span><</span><span>/</span><span class="e">h1</span><span>></span></code></pre>
+        <p>
+          Maka ketika dijalankan dibrowser style dari h1 langsung di didefinikan warna green, dan textnya bold. Jika dibawahnya ada h1 lagi tanpa Inline Style Sheet maka stylenya tidak ikut berubah.
+        </p>
+        <li class="fw-bold" style="font-family: 'Poppins';">CSS Internal</li>
+        <p>
+          Meto
+        </p>
+        <li class="fw-bold" style="font-family: 'Poppins';">CSS External</li>
+        <p>
+          Metode External ini CSS yang menggunakan file sendiri secara terpisah dari HTML dengan format file (.css), dan dipanggil didalam HTMLnya. Cara untuk memanggilnya dengan ketikan "link -lalu- Tab". Maka akan dibuatkan element link secara otomatis, kemudian tinggal masukan lokasi file cssnya didalam atribute herf.
+        </p>
+          <ol>
+            <li>Jika file CSS lokasinya tidak didalam folder, atau letaknya sama dengan index.html.</li>
+            <pre class="chroma"><code><span><</span><span class="e">link</span><span class="c"> rel</span><span>=</span><span class="at">"stylesheet"</span><span class="c"> herf</span><span>=</span><span class="at">"style.css"</span><span>></span></code></pre>
+            <li>Jika file CSS lokasinya ada didalam folder css, atau file cssnya ada didalam folder css yang ada didalam folder asset.</li>
+            <pre class="chroma"><code><span><</span><span class="e">link</span><span class="c"> rel</span><span>=</span><span class="at">"stylesheet"</span><span class="c"> herf</span><span>=</span><span class="at">"css/style.css"</span><span>></span>
+            </code></pre>
+            <pre class="chroma">
+            <code><span><</span><span class="e">link</span><span class="c"> rel</span><span>=</span><span class="at">"stylesheet"</span><span class="c"> herf</span><span>=</span><span class="at">"asset/css/style.css"</span><span>></span></code>
+            </pre>
+          </ol>
+        <p>
+          Link harus terletak didalam head pada html.
+        </p>
+        <pre class="chroma"><code><span><</span><span class="e">head</span><span>></span>
+        <span><</span><span class="e">meta</span><span class="c"> charset</span><span>=</span><span class="at">"UTF-8"</span><span>></span>
+        <span><</span><span class="e">meta</span> <span class="c">name</span><span>=</span><span class="at">"viewport"</span> <span class="c">content</span><span>=</span><span class="at">"width=device-width, initial-scale=1.0"</span><span>></span>
+        <span><</span><span class="e">title</span><span>></span>Title Website<span><</span><span>/</span><span class="e">title</span><span>></span>
+        <span><</span><span class="e">link</span><span class="c"> rel</span><span>=</span><span class="at">"stylesheet"</span><span class="c"> herf</span><span>=</span><span class="at">"asset/css.style.css"</span>
+        <span><</span><span>/</span><span class="e">head</span><span>></span>
+        </code>
+        </pre>
+        <p>
+          Cara menggunakannya dengan memanggil element, class, id, dll. Didalam file style.css tersebut. Seperti berikut ini: 
+        </p>
+        <pre class="chroma">index.html<code><span><</span><span class="e">h1</span><span>></span><span>Hello World</span><span><</span><span>/</span><span class="e">h1</span><span>></span></code>
+        </pre>
+        <pre class="chroma">style.css<code><span class="e">h1</span><span> {</span>
+        <span style="visibility: hidden;">00</span><span>Color: blue;</span>
+        <span style="visibility: hidden;">00</span><span>Font-wegiht: bold;</span>
+        <span>}</span>
+        </code></pre>
+      <p>
+        Jika memanggil dengan menggunakan nama class.
+      </p>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Create_Javascript">
+    <header>Create Javascript</header>
+    <article>
+      <p>
+        <span class="fw-bold">JavaScript</span> (disingkat: JS) adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer (IE), Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT. JavaScript merupakan salah satu teknologi inti World Wide Web (www) selain HTML dan CSS. JavaScript membantu membuat halaman web interaktif dan merupakan bagian aplikasi web yang esensial.
+        <span class="wiki">Selengkapnya baca di <a herf="https://id.wikipedia.org/wiki/JavaScript">Wikipedia</a>.</span>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Framework_CSS_&_Javascript">
+    <header>Framework CSS & Javascript</header>
+    <article>
+      <p>
+        Framework merupakan kerangka kerja untuk mengembangkan aplikasi atau situs web. Fungsinya untuk membantu dan mempermudah kinerja developer. Framework itu memiliki berbagai jenis, seperti:
+      </p>
+      <ol>
+        <li>Framework CSS</li>
+        <li>Framework JavaScript</li>
+        <li>Framework PHP dan Lain Sebagainya.</li>
+      </ol>
+    </article>
+  </section>
+</main>
+    
+
+    <!-- JQuery js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- FreeCodeCamp JS test -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- My Js -->
+    <script src="main.js"></script>
+</body>
+</html>
